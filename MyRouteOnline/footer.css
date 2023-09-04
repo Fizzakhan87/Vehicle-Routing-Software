@@ -1,0 +1,19 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+	max-width: 1170px;
+	margin:auto;
+}
+.footer{
+	background-color: #24262b;
+  
+}
+.container p{
+    margin-left: 120px;
+}
+ul{
+    list-style: none;
+}

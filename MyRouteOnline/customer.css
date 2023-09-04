@@ -1,0 +1,232 @@
+
+.green-title{
+    line-height: normal!important;
+    color:#f15a24;
+    font-size: 47px!important;
+    font-family: 'Roboto',sans-serif;
+    margin-top: 40px 0 0 !important;
+    font-weight: lighter;
+    margin-left: 260px;
+    margin-top:50px ;
+}
+ h1 {
+
+    line-height: 10px;
+    color: #000000;
+    font-size: 30px;
+    font-family: 'Roboto',sans-serif;
+    font-weight: normal;
+    margin-left: 260px;
+    margin-top: 12px;
+
+}
+.business-row p{
+    margin-top: 28px;
+    font-size: 17px;
+    font-family: 'Roboto',sans-serif;
+    margin-left: 260px;
+    font-weight: 350;
+    text-underline-position: none;
+}
+
+.search-row{
+    font-size: 17px;
+    margin-top: 19px;
+    margin-left: 260px;
+    width: 30%;
+    font-family: 'Roboto', sans-serif;
+    
+   
+}
+ button{
+    cursor: pointer;
+    color: #fff;
+    /* display: inline-block; */
+    /* font-family: 'Roboto',sans-serif; */
+    font-size: 19px;
+    margin: 5px;
+   background-color:  #7a7979;
+   padding-left: 19px;
+   padding-right: 19px;
+   
+}
+.bright-img {
+    float: left;
+    margin-right: 25px;
+    margin-left: 250px;
+}
+.customer-first, h2 {
+      color: rgb(237, 93, 45);
+      font-weight: 450;
+      font-family: 'Roboto', sans-serif;
+          
+}
+.customer-first, p{
+    color: #111010;
+    margin-left: 345px;
+    font-family: 'Roboto',sans-serif;
+    font-weight: lighter;
+}
+
+
+.low-img{
+    float: left;
+    margin-right: 25px;
+    margin-left: 250px;
+}
+.high-img{
+    float: left;
+    margin-right: 25px;
+    margin-left: 250px;
+}
+.weak-img{
+    float: left;
+    margin-right: 25px;
+    margin-left: 250px;
+}
+.blur-img{
+    float: left;
+    margin-right: 25px;
+    margin-left: 250px;
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+/*NAVBAR-SECTION*/
+
+nav img{
+    width: 123px;
+    height: 89px;
+    margin-top: 2px !important;
+    margin-left: 250px !important;
+    padding: 2px;
+    cursor: pointer;
+    overflow-clip-margin: content-box;
+    text-decoration-line: none;
+    text-decoration-thickness: initial;
+    text-decoration-style: initial;
+    text-decoration-color: initial;
+    display: block;
+    float: left;
+    position: absolute;
+}
+
+nav{
+    background: #506b86;
+    height: 87px;
+    width: 100%
+}
+
+nav ul{
+    margin-left: 450px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    list-style: none;
+    font-size: 19px;
+  
+}
+nav ul li{
+    line-height: 75px;
+    margin-right: 5px;
+    display: inline-block;
+    position: relative;
+    margin-left: 5px;
+}
+nav ul li a{
+    
+    font-family: 'Roboto', sans-serif;
+    display: block;
+    padding: 10px 20px;
+    color:#fff;
+    text-decoration: none;
+    font-size:19px;
+    font-weight: 300;
+    margin-left: 20px;
+}
+nav ul li ul.dropdown li{
+    border-color: #111010;
+    display: block;
+    float: none;
+    clear: both;
+    line-height: normal;
+    height: auto;
+    margin: 0 0 10px;
+}
+nav ul li ul.dropdown{
+    text-decoration: none;
+    cursor: pointer;
+    margin-left: 20px;
+    width: 200px;
+    background-color:white;
+    position: absolute;
+    z-index: 1999;
+    display: none;
+    color: #000000;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+nav ul li ul.dropdown:hover{
+    color: #2f8dea;
+}
+nav ul li a:hover{
+    background: none;
+
+}
+nav ul li:hover ul.dropdown{
+    display: block;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.footer {
+    height: 390px;
+    padding: 26px 0;
+    display: flex; /* Display children in a row */
+    justify-content: space-between; /* Distribute space evenly between children */
+    background-color: rgb(84, 90, 92);
+    color: #fff;
+}
+
+/* Style each footer item */
+.footer-item {
+    width: 1300px;
+    flex: 2; /* Distribute available space evenly among items */
+    padding: 40px 0;
+    border-right: 1px solid rgb(49, 49, 53); /* Add a border between items */
+    box-sizing: border-box;
+    font-size: 14px;
+    font-family: 'Roboto', sans-serif;
+    margin-left: 29px;
+    margin-top: 39px;
+    margin-bottom: 0px;
+    display: table-cell;
+    line-height: 12px;
+}
+.footer-item .part1 img{
+   margin-top: 20px;
+   margin-left: 40px;
+   width: 75%;
+   height: 60%;
+   box-sizing: border-box;
+   padding: 5px 10px;
+}
+.footer-item .part1 p{
+    font-size: 15px;
+    margin-left: 50px;
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+}
+.footer-item img{
+     
+    margin-left: 70px;
+    width:23px;
+    height: 17px;
+    margin-top: 18px;
+
+}

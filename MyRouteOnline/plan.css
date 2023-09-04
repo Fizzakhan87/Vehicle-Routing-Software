@@ -1,0 +1,188 @@
+.head-para{
+    font-weight:400px;
+    margin-left: 90px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 19px;
+    margin-top: 18px;
+}
+.orange-but a{
+    margin-left: 90px;
+    line-height: 70px;
+    padding-left: 50px;
+    padding-right: 310px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-family: 'Roboto', sans-serif;
+    cursor: pointer;
+    font-size: 16px;
+    color: white;
+    text-decoration: none;
+    border-radius: 1px;
+    background-color: rgb(252, 107, 55); 
+}
+.orange-but a:hover{
+    background: cadetblue;
+}
+
+.orange-butt a{
+    margin-left: 90px;
+    line-height: 50px;
+    padding-left: 50px;
+    padding-right: 175px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-family: 'Roboto', sans-serif;
+    cursor: pointer;
+    font-size: 16px;
+    color: white;
+    text-decoration: none;
+    border-radius: 1px;
+    background-color: rgb(252, 107, 55); 
+}
+.orange-butt a:hover{
+    background: cadetblue;
+}
+
+.orange-butto a{
+    margin-left: 90px;
+    line-height: 68px;
+    padding-left: 50px;
+    padding-right: 163px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-family: 'Roboto', sans-serif;
+    cursor: pointer;
+    font-size: 16px;
+    color: white;
+    text-decoration: none;
+    border-radius: 1px;
+    background-color: rgb(252, 107, 55); 
+}
+.orange-butto a:hover{
+    background: cadetblue;
+}
+.orange-buton a{
+    margin-left: 90px;
+    line-height: 50px;
+    padding-left: 50px;
+    padding-right: 131px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-family: 'Roboto', sans-serif;
+    cursor: pointer;
+    font-size: 16px;
+    color: white;
+    text-decoration: none;
+    border-radius: 1px;
+    background-color: rgb(252, 107, 55); 
+}
+.orange-buton a:hover{
+    background: cadetblue;
+}
+.orange-button a{
+    margin-left: 90px;
+    line-height: 67px;
+    padding-left: 50px;
+    padding-right: 175px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-family: 'Roboto', sans-serif;
+    cursor: pointer;
+    font-size: 16px;
+    color: white;
+    text-decoration: none;
+    border-radius: 1px;
+    background-color: rgb(252, 107, 55); 
+}
+.orange-button a:hover{
+    background: cadetblue;
+}
+.description p{
+    margin-left: 10px;
+}
+.description {  
+       flex-direction: row;
+    background-color: rgb(240, 240, 240);
+    padding: 15px;
+     width: 38%;
+    box-sizing: border-box;
+     margin-top: 70px;
+  
+}
+.blue-button a{
+    margin-left: 70px;
+    line-height: 60px;
+    text-decoration: none;
+    border: 1px solid rgb(18, 79, 125);
+    background: rgb(250, 249, 249);
+    color: #817f7f;
+    font-family: 'Roboto',sans-serif;
+    font-size: 15px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 9px;
+    padding-bottom: 9px;
+}
+.blue-button a:hover{
+    background: #f87534;
+    color: rgb(244, 244, 248);
+}
+.blue-butt a{
+   
+    display: inline;
+    margin-left: 340px;
+    text-decoration: none;
+    border: 1px solid rgb(18, 79, 125);
+    background: rgb(250, 249, 249);
+    color: #817f7f;
+    font-family: 'Roboto',sans-serif;
+    font-size: 15px;
+    padding-left: 30px;
+    padding-right: 33px;
+    padding-top: 9px;
+    padding-bottom: 9px;
+}
+.blue-butt a:hover{
+    background: #f87534;
+    color: rgb(255, 255, 255);
+
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+/*NAVBAR-SECTION*/
+nav{
+    justify-content: flex-end;
+    background: rgba(40,40,40);
+    height: 55px;
+    width: 100%
+}
+.nav-logo{  
+    font-size: 14px;
+    line-height: 60px;
+    padding-bottom: 120px;
+    margin-left: 1370px;
+    bottom: 19px;
+    color: #fff;
+}
+
+.footer-log{
+   
+    font-size: 10px ;
+    font-family: 'Roboto', sans-serif;
+    height: 27px;
+    padding: 10px 0;
+    display: flex; /* Display children in a row */
+    justify-content: space-between; /* Distribute space evenly between children */
+    background-color: rgb(40, 41, 42);
+    color: #fff;
+}
+#div1{
+    background: url(https://i.pinimg.com/736x/8d/16/80/8d168042909b7eb625b033bda768e31d.jpg);
+    width: 59.338%;
+    float: right;
+    height: 652px;
+}

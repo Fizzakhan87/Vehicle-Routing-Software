@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login/signup</title>
+    <!--CSS-->
+    <link rel="stylesheet" href="./memberlogin.css">
+</head>
+<body>
+    <div class="container">
+        <form class="form-image" id="login">
+        <img src="https://evrimo.com/wp-content/uploads/2020/06/logo-1.png"  height="75" width="100"> 
+        <div class="form">
+            <div style="display: flex; justify-content: space-between;flex-direction: column;">
+                <div class="input-field">
+                    <input type="text" required spellcheck="false"> 
+                    <label>Username or Email</label>
+                  </div>
+                  <div class="input-field">
+                    <input type="text" required spellcheck="false"> 
+                    <label>Password</label>
+                  </div>
+            </div>
+            <button class="form__button" type="submit">Login</button>
+          <p>
+            <a class="form__link" href="#">Forgot Password?</a>
+          </p>   
+          <div class=" form__group">
+           <span>If you're a new member?<a class="form-link" href="#" id="linksignup">Sign up</a></span>
+          </div>
+      </form>
+    </div>
+    <!--Javacript-->
+    <script src="./src/mainn.js"></script>
+</body>
+</html>

@@ -1,0 +1,278 @@
+*{
+    /* padding: 0; */
+    margin:0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+body{
+    font-family: montserrat;
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+/*NAVBAR-SECTION*/
+
+nav img{
+    width: 123px;
+    height: 89px;
+    margin-top: 2px !important;
+    margin-left: 230px !important;
+    padding: 2px;
+    cursor: pointer;
+    overflow-clip-margin: content-box;
+    text-decoration-line: none;
+    text-decoration-thickness: initial;
+    text-decoration-style: initial;
+    text-decoration-color: initial;
+    display: block;
+    float: left;
+    position: absolute;
+}
+
+nav{
+    background: #506b86;
+    height: 87px;
+    width: 100%
+}
+
+nav ul{
+    margin-left: 450px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    list-style: none;
+    font-size: 19px;
+  
+}
+nav ul li{
+    line-height: 75px;
+    margin-right: 5px;
+    display: inline-block;
+    position: relative;
+    margin-left: 5px;
+}
+nav ul li a{
+    
+    font-family: 'Roboto', sans-serif;
+    display: block;
+    padding: 10px 20px;
+    color:#fff;
+    text-decoration: none;
+    font-size:19px;
+    font-weight: 300;
+    margin-left: 20px;
+}
+nav ul li ul.dropdown li{
+    border-color: #111010;
+    display: block;
+    float: none;
+    clear: both;
+    line-height: normal;
+    height: auto;
+    margin: 0 0 10px;
+}
+nav ul li ul.dropdown{
+    text-decoration: none;
+    cursor: pointer;
+    margin-left: 20px;
+    width: 200px;
+    background-color:white;
+    position: absolute;
+    z-index: 1999;
+    display: none;
+    color: #000000;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+nav ul li ul.dropdown:hover{
+    color: #2f8dea;
+}
+nav ul li a:hover{
+    background: none;
+
+}
+nav ul li:hover ul.dropdown{
+    display: block;
+}
+.pricing-heading{
+    align-content: left;
+    max-width: 12px;
+    /* height: 130px; */
+    font-family: 'Roboto', sans-serif;
+    font-size: 45px;
+    font-weight: lighter;
+    color:  #e87c42;
+    line-height: normal!important;
+    margin-top: 40px !important;
+    margin-right: 0px !important;
+    margin-bottom: 0px !important;
+    margin-left: 220px !important;
+}
+.pricing-para{
+    margin-top: 260px;
+    margin-bottom: 0px;
+    margin-right: 300px;
+    margin-left: 800px;
+    line-height: 3px 23px;
+    color: #1a1a1a;
+    font-size: 25px;
+    font-family: 'Roboto',sans-serif;
+    margin-block-start: 2em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    display: block;
+    padding-right:3px 34px;
+}
+.greenbutton{
+    font-weight: bold;
+    padding-top: 0px;
+    padding-right: 3%;
+    padding-bottom: 0px;
+    padding-left: 3%;
+    font-size: 28px;
+    color: #333!important;
+    box-shadow: 3px 3px 1px 0px rgba(0,0,0,0.5);
+    display: inline-block;
+    text-decoration-line: none;
+    text-decoration-thickness: initial;
+    text-decoration-style: initial;
+    text-decoration-color: initial;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    text-align: center;
+    height: 70px;
+    line-height: 68px;
+    float:left;
+    cursor: pointer;
+    background-image: initial;
+    background-size: initial;
+    background-attachment: initial;
+    background-origin: initial;
+    background-clip: initial;
+    background-color: rgb(221, 158, 70);
+    color: rgb(207, 170, 91) ;
+    -webkit-box-shadow: 3px 3px 1px 0px rgba(17, 17, 17, 0.5);
+    margin-top: 30px;
+    margin-right: 10px;
+    margin-left: 75px;
+
+}
+.greenbutton:hover{
+    background:rgb(231, 189, 99);;
+    transition: 0.5s;
+}
+.pricing-Refund {
+    font-family: 'roboto', sans-serif;
+    display: block;
+    font-size: 1.17em;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+    margin-top: 10px;
+    margin-right: 0px;
+    margin-bottom: 13px;
+    margin-left: 70px;
+    color: #f15a24;
+    font-weight: normal;
+    font-size: 33px;
+}
+.pricing-rupee{
+    margin-top: 60px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 17px;
+}
+.pricing-rupees{
+    margin-top: 60px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 17px;
+}
+.pricing-rupeess{
+    margin-top: 60px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 17px
+}
+.with-gaps{
+    font-family: 'Roboto', sans-serif;
+    font-size: 50px;
+}
+.pricing-or{
+    font-weight: bold;
+}
+
+.Terms{
+     color: #f15a24;
+     font-size: 30px;
+     font-weight: normal;
+     font-family: 'Roboto', sans-serif;
+     margin-left: 70px;
+     margin-top: 12px;
+}
+.credit-refund{
+     font-size: 16px;
+     margin-left: 70px;
+}
+.pricing-policy{
+    margin-left: 70px ;
+    font-size: 15px;
+    font-family: "Roboto", sans-serif;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.footer {
+    height: 390px;
+    padding: 26px 0;
+    display: flex; /* Display children in a row */
+    justify-content: space-between; /* Distribute space evenly between children */
+    background-color: rgb(84, 90, 92);
+    color: #fff;
+}
+
+/* Style each footer item */
+.footer-item {
+    width: 1300px;
+    flex: 2; /* Distribute available space evenly among items */
+    padding: 40px 0;
+    border-right: 1px solid rgb(49, 49, 53); /* Add a border between items */
+    box-sizing: border-box;
+    font-size: 14px;
+    font-family: 'Roboto', sans-serif;
+    margin-left: 29px;
+    margin-top: 39px;
+    margin-bottom: 0px;
+    display: table-cell;
+    line-height: 12px;
+}
+.footer-item .part1 img{
+   margin-top: 20px;
+   margin-left: 40px;
+   width: 75%;
+   height: 60%;
+   box-sizing: border-box;
+   padding: 5px 10px;
+}
+.footer-item .part1 p{
+    font-size: 15px;
+    margin-left: 50px;
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+}
+.footer-item img{
+     
+    margin-left: 70px;
+    width:23px;
+    height: 17px;
+    margin-top: 18px;
+
+}
